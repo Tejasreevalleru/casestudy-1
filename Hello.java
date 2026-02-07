@@ -15,6 +15,24 @@ public class Hello {
     }
 
     public static void main(String[] args) {
+// Case Study 3 login feature
+Scanner loginScanner = new Scanner(System.in);
+
+System.out.print("Enter username: ");
+String username = loginScanner.nextLine();
+
+System.out.print("Enter password: ");
+String password = loginScanner.nextLine();
+
+if(username.equals("admin") && password.equals("1234")) {
+    System.out.println("Login successful");
+} else {
+    System.out.println("Invalid credentials");
+}
+
+
+
+System.out.println("Second update for Case Study 2");
 
         // 🔹 Case Study-2 daily update line
         System.out.println("Daily update: Case Study 2 change");
